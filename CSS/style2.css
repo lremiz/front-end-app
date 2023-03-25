@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 2000px;
+    background-color: grey;
+}
+
+header {
+    width: 100%;
+    background: #F8F8F8;
+    box-shadow: 2px 4px 6px rgba(194, 192, 192, 0.25);
+    padding: 10px;
+    float: left;
+    position: fixed;
+}
+
+header .header .btn {
+    cursor: pointer;
+    float: left;    
+    width: 86px;
+    height: 40px;
+    border: 2px solid grey;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    margin-left: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header .header .btn:first-of-type {margin-left: 30%}
+header .header .btn:last-of-type {margin-right: 30%}
+
+header .header .btn:hover {background-color: #888282}
+
+img {
+    width: 40%;
+    height: 500px;
+    float: left;
+    margin-top: 130px;
+    margin-left: 30%;
+    margin-right: 30%;
+} 
